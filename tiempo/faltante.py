@@ -23,7 +23,7 @@ def horaFaltante():
     horas = tupla[3]
     minutos = tupla[4]
     segundos = tupla[5]
-    horas_f = 18 - horas
+    horas_f = 17 - horas
     minutos_f = 59 - minutos
     segundos_f = 59 - segundos
     return horas_f, minutos_f, segundos_f
